@@ -69,7 +69,7 @@
         name: "{{ az_vm_name }}"
         vm_size: Standard_F1s
         admin_username: "{{ az_vm_admin_name }}"
-        admin-password: "L5t0Bghdt34"
+        admin_password: "L5t0Bghdt34"
         ssh_password_enabled: true
         network_interfaces: "{{ az_nic_name }}"
         image:
