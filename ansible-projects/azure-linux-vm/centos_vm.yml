@@ -5,7 +5,7 @@
   gather_facts: no
   vars:
     az_resource_group_name: "centos-rg"
-    az_location_name: "eastus2"
+    az_location_name: "westeurope"
     az_vnet_name: "centos-vnet"
     az_vnet_address_prefixes: "10.0.0.0/16"
     az_subnet_name: "centos-subnet"
