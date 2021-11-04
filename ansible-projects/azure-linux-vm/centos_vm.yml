@@ -70,9 +70,6 @@
         vm_size: Standard_DS1_v2
         admin_username: "{{ az_vm_admin_name }}"
         ssh_password_enabled: true
-#        ssh_public_keys:
-#          - path: "/home/{{ az_vm_admin_name }}/.ssh/authorized_keys"
-#            key_data: "{{ ssh_public_key }}"
         network_interfaces: "{{ az_nic_name }}"
         image:
           offer: CentOS
