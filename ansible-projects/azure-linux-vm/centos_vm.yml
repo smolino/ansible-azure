@@ -74,7 +74,7 @@
         image:
           offer: CentOS
           publisher: OpenLogic
-          sku: "7.5"
+          sku: "7.4"
           version: latest
 
     - name: Dump public IP for VM
